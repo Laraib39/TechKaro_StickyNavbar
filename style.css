@@ -1,0 +1,99 @@
+#topDiv{
+    /* background-color: rgba(238, 90, 22, 0.753); */
+    background-color: rgba(218, 66, 11, 0.911);
+    height: 50px;
+}
+#topDiv p{
+    display: inline-block;
+    color: white;
+}
+#personalBtn{
+    margin-left: 150px;
+    font-size: large;
+}
+#topDiv p:hover {
+    text-decoration: underline;
+}
+#businessBtn{
+    margin-left: 20px;
+    font-size: large;
+}
+
+/* Navbar */
+#navbar {
+  position: sticky;
+  top: 0;
+  background: aliceblue;
+  background-color: whitesmoke;
+  display: inline-block;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+#navbar input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 10px;
+  font-size: 17px;
+}
+#navbar img{
+  padding-left: 100px;
+  padding-top: 5px;
+}
+#biggerImg{
+  width: 100%;
+}
+/* Dropdown Button */
+.dropbtn {
+    color: rgb(104, 102, 102);
+    border: none;
+    background-color: whitesmoke;
+    font-size: 14px;
+  }
+  /* The container <div> */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  /* Dropdown Content */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropbtn:hover{
+    color: rgba(218, 66, 11, 0.911);
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: rgb(104, 102, 102);
+    padding: 14px 18px; 
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+    color: rgba(218, 66, 11, 0.911);
+    background-color: rgb(202, 201, 201);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  #searchBar{
+    margin-left: 100px;
+    display: inline-block;
+  }
+  #icons{
+    display: inline-block;
+  }
+#para1{
+  background-color: rgb(214, 131, 100);
+}
+#para2{
+  background-color: rgb(187, 187, 77);
+}
